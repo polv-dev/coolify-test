@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 export async function GET() {
   const uuidReq = await fetch("https://www.uuidgenerator.net/api/version4", {
     headers: {
